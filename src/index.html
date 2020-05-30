@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello NW.js!</title>
+  <script>
+    const base = require("./base").setWindow(window);
+    const os = require('os');
+  </script>
+</head>
+
+<body style="margin: 30px; font-family: Helvetica, Arial;">
+  <h1>Hello NW.js!</h1>
+  <script>
+    base.wl(`<p>You are running on ${os.platform()}. 😋</p>`);
+  </script>
+  <p>This is super cool!</p>
+</body>
+
+</html>

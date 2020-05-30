@@ -1,0 +1,7 @@
+{
+  "name": "hellonwjs",
+  "main": "src/index.html",
+  "scripts" : {
+    "run": "nwjs ."
+  }
+}
