@@ -13,7 +13,8 @@
 <body style="margin: 30px; font-family: Helvetica, Arial;">
   <h1>Hello NW.js!</h1>
   <script>
-    base.wl(`<p>You are running on ${os.platform()}. 😋</p>`);
+    // Functions in base.js can be accessed directly without the 'base' prefix.
+    wl(`<p>You are running on ${os.platform()}. 😋</p>`);
   </script>
   <p>This is super cool!</p>
 </body>
