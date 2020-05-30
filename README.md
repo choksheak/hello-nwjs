@@ -8,6 +8,10 @@ This project currently does nothing useful, and is just a small sample to help y
 
 If you already have a website written in HTML/CSS/JS, it should be very easy to convert your website into a standalone desktop app!
 
+## Memory Usage
+
+About 68.0 MB on my MacBook Pro.
+
 ## Quick Start
 
 **Pre-requisites:**
